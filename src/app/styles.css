@@ -1,0 +1,330 @@
+
+header {
+    position: sticky; 
+    top: 0; 
+    z-index: 10; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(135deg, #673ab7, #3f51b5); 
+    padding: 10px; 
+    border-bottom: 2px solid #ddd; 
+    border-radius: 8px 8px 0 0; 
+  }
+.item-market {
+    padding: 20px;
+    background: linear-gradient(135deg, #e0f7fa, #e1bee7); 
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15); 
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(135deg, #673ab7, #3f51b5); 
+    padding: 15px;
+    border-bottom: 2px solid #ddd;
+    border-radius: 8px 8px 0 0; 
+  }
+  
+  header h1 {
+    font-size: 28px;
+    color: #ffffff; 
+  }
+
+  h2 {
+    font-family: 'Roboto', sans-serif; 
+    font-size: 26px; 
+    font-weight: 600; 
+    color: #444; 
+    margin: 15px 0;
+    padding: 10px 0; 
+    text-align: center; 
+    text-transform: capitalize;
+  }
+  
+  
+  
+  header button {
+    padding: 10px 16px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    transition: background-color 0.3s;
+    cursor: pointer;
+  }
+  
+  header button:disabled {
+    background-color: #ddd; 
+  }
+  
+  header button:hover:not(:disabled) {
+    background-color: #218838; 
+  }
+  
+  section {
+    margin: 20px 0;
+  }
+  
+  .list-item-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px; 
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  .list-item-form:hover {
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.25); 
+    transform: translateY(-5px); 
+  }
+  
+  .list-item-form input {
+    padding: 10px; 
+    border: 1px solid #ccc; 
+    border-radius: 8px; 
+    transition: all 0.3s; 
+  }
+  
+  .list-item-form input:focus {
+    border-color: #570b99; 
+    box-shadow: 0 0 8px rgba(0, 123, 255, 0.25); 
+  }
+  
+  .list-item-form button {
+    padding: 12px;
+    background-color: #007bff; 
+    color: white;
+    border: none;
+    border-radius: 8px; 
+    cursor: pointer;
+    transition: background-color 0.3s; 
+  }
+  
+  .list-item-form button:hover {
+    background-color: #3c0f6b; 
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.25); 
+    transform: translateY(-5px); 
+      
+  }
+  
+  .items-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px; 
+  }
+  
+  
+  .item-card {
+    background: linear-gradient(135deg, #f5f5f5, #ffffff); 
+    padding: 25px; 
+    border: 1px solid #ccc; 
+    border-radius: 10px; 
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); 
+    flex: 0 1 350px; 
+    transition: box-shadow 0.3s, transform 0.3s; 
+  }
+  
+  .item-card:hover {
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.25); 
+    transform: translateY(-5px); 
+  }
+  
+  .item-card h3 {
+    margin: 0;
+    font-size: 20px;
+    color: #333;
+  }
+  
+  .item-card p {
+    margin: 8px 0;
+    color: #666; 
+  }
+  
+  .item-card button {
+    padding: 12px;
+    background-color: #6f42c1; 
+    color: white;
+    border: none;
+    border-radius: 8px; 
+    transition: background-color 0.3s; 
+    cursor: pointer;
+  }
+  
+  .item-card button:hover {
+    background-color: #5a35aa; 
+  }
+  
+  
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.7); 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000; 
+  }
+  
+  .modal-content {
+    background: white;
+    padding: 20px;
+    border-radius: 10px; 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); 
+  }
+  
+  .modal-content button {
+    background: #007bff; 
+    color: white;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 5px; 
+    cursor: pointer;
+  }
+  
+  .modal-content button:hover {
+    background: #0056b3; 
+  }
+  
+  
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.7); 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000; 
+  }
+  
+  .modal-content {
+    background: white;
+    padding: 20px;
+    border-radius: 10px; 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); 
+  }
+  
+  .modal-content button {
+    background: #007bff; 
+    color: white;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 5px; 
+    cursor: pointer;
+    transition: background 0.3s; 
+  }
+  
+  .modal-content button:hover {
+    background: #0056b3; 
+  }
+  
+ 
+@keyframes spin {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  
+  
+  .spinner {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    border: 8px solid #f3f3f3; 
+    border-top: 8px solid #3c186f; 
+    border-radius: 50%; 
+    width: 50px;
+    height: 50px;
+    animation: spin 1s linear infinite; 
+  }
+  
+  
+  .spinner-container {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh;
+  }
+  
+ 
+a {
+    color: #3498db; 
+    text-decoration: none;
+    transition: all 0.3s; 
+    cursor: pointer; 
+  }
+  
+  
+  a:hover {
+    color: #1f6bbd; 
+    text-decoration: underline; 
+    cursor: pointer;
+  }
+
+
+.item-sold {
+    font-family: 'Roboto', sans-serif; 
+    font-size: 16px;
+    font-weight: bold; 
+    color: #e74c3c; 
+    background-color: #fce4e4;
+    padding: 10px; 
+    border-radius: 5px; 
+    text-align: center; 
+    margin: 10px 0; 
+    border: 1px solid #e74c3c; 
+  }
+  
+  .item-card .item-sold {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    color: #e74c3c !important; 
+    background-color: #fce4e4;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    margin: 10px 0;
+    border: 1px solid #e74c3c;
+  }
+  
+  .no-purchase {
+    font-family: 'Roboto', sans-serif; 
+    font-size: 16px; 
+    font-weight: bold; 
+    color: #181425; 
+    background-color: #554763; 
+    padding: 10px; 
+    border-radius: 5px;
+    text-align: center; 
+    margin: 10px 0; 
+    border: 1px; 
+  }
+  
+  .item-card .no-purchase{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    color: #181425 !important; 
+    background-color: #554869;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    margin: 10px 0;
+    border: 1px ;
+  }
+  
+  
