@@ -8,9 +8,10 @@ This is the Decentralized app that allows the users to add the items to the list
 - [Smart Contract Development](#smart-contract-development)
 - [Frontend Development](#frontend-development)
 - [Integration and Testing](#integration-and-testing)
-- [Usage Instructions](#usage-instructions)
-- [Contributing](#contributing)
-- [License](#license)
+- [Google Cloud Deployment](#google-cloud-deployment)
+- [Instructions](#instructions)
+
+
 
 ## Project Overview
 This is a decentralized application (DApp) built using Solidity, Next.js, and Remix. It operates on the Ethereum blockchain, specifically the Sepolia testnet. Users can list items with relevant information, and others can purchase them using test Ether. 
