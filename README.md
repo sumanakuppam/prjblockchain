@@ -19,7 +19,7 @@ This is a decentralized application (DApp) built using Solidity, Next.js, and Re
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Setting Up the Environment
-To set up this project, below are required
+To set up this project, required are
 - Node.js (version 16 or later)
 - NPM or Yarn
 - A wallet extension (e.g., MetaMask)
@@ -31,7 +31,10 @@ To set up this project, below are required
 First, run the development server:
 
 ```bash
+npm install
 npm run dev
+npm run build
+npm run start
 # or
 yarn dev
 # or
@@ -101,4 +104,11 @@ After setting up the environment, follow these steps to interact with the DApp:
 - Click "Connect Wallet" to connect your MetaMask or other wallet extension.
 - List a new item by entering the title, description, and price.
 - Purchase an item by clicking the "Purchase" button and confirming the transaction in MetaMask.
+
+### Problems Faced
+- While setting up the environment, to installthe npm packages, I faced path issues.
+- Also face after importing ethers to the page.tsx, faced errors near assigning variable. In typescript assigned type should be declared. I cleared them with the help of online resources.
+
+### Licenes
+MIT License
   
